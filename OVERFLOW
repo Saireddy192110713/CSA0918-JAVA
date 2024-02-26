@@ -1,0 +1,8 @@
+public class Overflow {
+        public static void main(String[] args) {
+            int maxInt = Integer.MAX_VALUE;
+            int overflowedValue = maxInt + 1;
+            System.out.println("Max Int Value: " + maxInt);
+            System.out.println("Overflowed Value: " + overflowedValue);
+        }
+    }
